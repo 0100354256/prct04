@@ -1,0 +1,4 @@
+Ha ocurrido un conflicto al tratar de fusionar la rama suma desde la rama multiplicacion "git merge suma"
+Auto-merging suma/suma.rb
+CONFLICT (content): Merge conflict in suma/suma.rb
+Automatic merge failed; fix conflicts and then commit the result.
