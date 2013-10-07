@@ -28,3 +28,8 @@ for i in 0...ma do
     end
   end
 end
+
+#Imprime la Multiplicación
+c.each do |fila|
+  puts fila.join(" ")
+end
