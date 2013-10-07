@@ -26,3 +26,8 @@ for i in 0...m do
     c[i][j] = a[i][j] + b[i][j]
   end
 end
+
+#Imprime la Suma
+c.each do |fila|
+  puts fila.join(" ")
+end
