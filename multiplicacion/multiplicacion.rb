@@ -19,3 +19,12 @@ for i in 0...ma do
     c[i][j] = 0
   end
 end
+
+#Multiplicación de matrices
+for i in 0...ma do
+  for j in 0...nb do
+    for k in 0...na do
+      c[i][j] = c[i][j] + (a[i][k] * b[k][j])
+    end
+  end
+end
